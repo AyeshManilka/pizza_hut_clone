@@ -5,11 +5,16 @@
 }
 
 .navigationBar{
-    border-bottom: 2px solid rgba(0, 0, 0, 0.4);
+    /* border-bottom: 2px solid rgba(0, 0, 0, 0.4); */
     height:  100%;
     display: flex;
     justify-content: space-between;
-    box-shadow: 0px 2.5px 5px rgba(0, 0, 0, 0.4); /* Blurred shadow */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
+    position: relative;
+    /* 
+    Blurred shadow */
+    /* position: relative; */
+    /* z-index: 1000; */
 }
 
 .pizzaHutLogo{
@@ -20,7 +25,7 @@
 }
 
 nav p{
-    margin: 0.9rem 7rem ;
+    margin: 1rem 7rem ;
     font-weight: 400;
     font-size: 0.9rem;
     color: grey;
@@ -28,12 +33,85 @@ nav p{
     text-underline-position: under;
 }
 
-.formContainer{
-    /* border: 2px solid red; */
-    height:  100%;
+.backgroundContainer {
+    background-image: url('images/background.jpg');
+    height: 100vh; 
+    width: 100%;
+    position: relative;
+    z-index: -1; 
 }
 
-footer{
-    /* border: 2px solid blue; */
-    height:  100%;
+.contentContainer{
+
+    border: 2px solid red;
+    height: 50vh;
+    width: 60%;
+    background-color: white;
+    position: absolute;
+    margin: 0;
+    /* margin: 0; */
+}
+
+.contentContainer h2{
+    border-bottom: 1px solid grey;
+    text-align: center;
+    font-weight: 600;
+    padding: 1.5rem;
+}
+
+.formContainer{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.leftFormContainer{
+    border: 2px solid red ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 50%;
+    height: 40vh;
+    padding: 2rem;
+}
+
+.usernameLabel,
+.passwordLabel{
+    font-weight: 600;
+    color: rgb(116, 116, 116);
+    /* padding-bottom: 5rem; */
+}
+
+.usernameInputBox,
+.passwordInputBox,
+.loginButton{
+    width: 20rem;
+    height: 2rem;
+    border-radius: 3px;
+    border-color: grey;
+}
+
+.usernameContainer,
+.passwordContainer{
+    align-items: center;
+}
+
+.usernameInputBox::placeholder,
+.passwordInputBox::placeholder{
+    font-family: "Open Sans", sans-serif;
+    padding-left: 1rem;
+    font-size: 0.95rem;
+    /* color: grey; */
+}
+
+.loginButton{
+    background-color: green;
+    color: white;
+    border-style: none;
+    font-size: 1rem;
+}
+
+.rightFormContainer{
+    border: 2px solid green;
+    width: 50%;
+    height: 100%;
 }
