@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.MainContainer{
+    border: 1px solid black;
+}
+.navBarContainer{
+    /* border:1px solid green; */
+    display: flex;
+}
+.NavRightSection{
+   /* border:1px solid red;*/
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    margin: 5px 150px;
+}
+.PizzaLogo{
+    width:50%;
+    margin-top: 10px;
+}
+.NavLeftSection{
+    /*border:1px solid blue;*/
+    width: 50%;
+    justify-content: center;
+    align-items:end;
+    margin: 5px 50px;
+    padding-left: 30rem;
+    
+}
+.Pharagrhp{
+    font-size: 1.0rem;
+    color: #000;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: #000;
+    text-decoration-style: dotted;
+    box-shadow: inset;
+    border-color:transparent;
+    display: transparent;
+    border-radius: none;
+    border-style: none;
+    margin-top: 10px;
+}
+.BannerSection{
+    /* border: 1px solid red; */
+}
+.melt{
+    size-adjust: auto;
+    width:1370px;
+    height: 400px;
+    margin-top: 10px;
+    margin-right: 100px;
+    padding-right: 100px;
+}
+.CarouselSection{
+    /*border: 1px solid blue;8*/
+    margin-top:50px;
+    display: flex;
+    height: 300px;
+}
+.Header{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align-last: center;
+    margin-top: 300px;
+}
+.RigthCarousel{
+    /*border: 1px solid pink;*/
+    margin-bottom: 200px;
+    padding-left: 40px;
+    padding-right: 40px;
+    width:50%;
+
+}
+.pic1{
+    width: 550px;
+    height: 300px;
+}
+.LeftCarousel{
+    /*border: 1px solid pink;*/
+    margin-bottom: 200px;
+    padding-right: 1000px;
+    width:50%;
+}
+.pic2{
+    width: 550px;
+    height: 300px;
+}
+.carousel1Section{
+    /* border: 1px solid red; */
+    margin-top:50px;
+    display: flex;
+    height: 300px;
+}
+.rightCarousel1{
+    /*border: 1px solid pink;*/
+    margin-bottom: 200px;
+    padding-left: 40px;
+    padding-right: 40px;
+    width:50%;
+}
+.pic3{
+    width: 550px;
+    height: 300px;
+}
+.leftCarousel1{
+    /*border: 1px solid pink;*/
+    margin-bottom: 200px;
+    padding-right: 1000px;
+    width:50%;
+}
+.pic4{
+    width: 550px;
+    height: 300px;
+}
+
