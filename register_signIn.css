@@ -112,11 +112,6 @@ nav p{
     border-color: grey;
 }
 
-.usernameContainer,
-.passwordContainer{
-    /* align-items: center; */
-}
-
 .usernameInputBox::placeholder,
 .passwordInputBox::placeholder{
     font-family: "Open Sans", sans-serif;
